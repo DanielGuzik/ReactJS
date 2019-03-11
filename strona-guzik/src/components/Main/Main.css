@@ -1,0 +1,18 @@
+/* MAIN */
+.portfolio-ul {
+  margin:0!important;
+  width: 100%;
+}
+.portfolio-ul li:first-child {
+  margin-top:0;
+}
+.portfolio-ul li:last-child {
+  margin-bottom:0;
+}
+.scrollbar {
+  overflow: hidden;
+  position: relative;
+}
+.ps--active-y > .ps__rail-y {
+  display: none!important;
+}

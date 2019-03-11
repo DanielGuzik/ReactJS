@@ -1,0 +1,30 @@
+/* GOAL SECTION */
+
+.container_goal {
+    background: rgb(30,34,42);
+    border: 1px solid #cfb044;
+    margin-bottom: 15px;
+}
+.container_goal h3 {
+    font-size: calc(10px + .65vmin);
+    margin: 15px auto!important;
+}
+.container_goal p,
+.lifeGoal {
+    font-size: calc(10px + .55vmin);
+    margin: 15px auto!important;
+}
+.rowBorderBottom {
+    border-bottom: 1px solid #cfb044;
+}
+.lifeGoal p {
+    margin: 0!important;
+}
+@media (max-width: 768px) {
+    .lifeGoal {
+      margin: 0 auto 15px!important;
+    }
+    html .jobGoal {
+        margin: 15px auto 0!important;
+    }
+}

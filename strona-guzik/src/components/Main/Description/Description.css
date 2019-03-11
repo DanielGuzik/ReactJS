@@ -1,0 +1,37 @@
+/* DECSRIPTION SECTION */
+
+.container_desc {
+    padding: 0 15px;
+    background: rgb(30, 34, 42);
+    border: 1px solid #cfb044;
+}
+
+.portret {
+    margin: 15px 0;
+    width: 100%;
+    height: auto;
+}
+
+.container_desc h2 {
+    margin: 15px auto;
+}
+
+.container_desc p {
+    text-align: left;
+    text-indent: 5%;
+    font-size: calc(10px + .70vmin);
+    line-height: 1.5em;
+}
+
+.desc-footer a:hover {
+    color: #cfb044;
+}
+.desc-footer p {
+    margin: 5px auto;
+}
+
+.share-buttons {
+    width: 3vh;
+    margin: 0 5px;
+    position: relative;
+}

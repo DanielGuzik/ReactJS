@@ -1,0 +1,28 @@
+/* FOOTER */
+
+.App-footer {
+  width: 100%;
+}
+.footer-social {
+  margin: 15px 0;
+}
+.social-icon {
+  width: 4vh;
+  margin: 0 5px;
+  position: relative;
+}
+.social-icon:hover {
+  top:-1px;
+}
+.autograf span {
+  font-family: mistral;
+}
+.react-icon {
+  width: 2vh;
+}
+
+@media (max-width: 769px) {
+  .footer-social {
+    margin: 0;
+  }
+}

@@ -1,0 +1,67 @@
+/* APP STYLE */
+
+.App {
+  text-align: center;
+  background:-webkit-linear-gradient(top, rgb(40, 44, 52) 0%, rgb(20, 24, 32) 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1.5vmin);
+  font-family: 'lato', sans-serif;
+  color: white;
+  min-height: 100vh;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
+}
+.App-header {
+  width: 100%;
+}
+.App-footer p {
+  margin: 15px auto;
+  font-size: calc(10px + .5vmin);
+}
+.page404 {
+  margin: 15px auto 45px;
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .container_goal {
+    margin-top: 15px;
+  }
+  .lifeGoal {
+    margin: 0 auto 15px!important;
+  }
+  html .scrollbar {
+    overflow:visible!important;
+    max-height:100%!important;
+  }
+  html .ps {
+    overflow:visible!important;
+  }
+  h4 {
+    margin-top: 0!important;
+  }
+}
+@media (min-width: 769px) {
+  .scrollbar {
+    max-height: 760px!important;
+  }
+  h4 {
+    margin-top: 15px!important;
+  }
+}
+@media (min-width: 993px) {
+  .scrollbar {
+    max-height: 580px!important;
+  }
+}
+@media (min-width: 1200px) {
+  .scrollbar {
+    max-height: 605px!important;
+  }
+}
