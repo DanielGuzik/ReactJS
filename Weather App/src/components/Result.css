@@ -1,0 +1,12 @@
+.result {
+    margin: 0 50px;
+    border-top: 2px solid #ddd
+}
+
+.result h3, .result h4 {
+    font-weight: normal;
+}
+
+.result em {
+    font-weight: bold;
+}
