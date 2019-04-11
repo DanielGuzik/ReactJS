@@ -1,0 +1,12 @@
+header {
+    background: rebeccapurple;
+}
+
+.header-link {
+    text-decoration: none!important;
+}
+
+h1 {
+    padding: 15px!important;
+    color: white!important;
+}

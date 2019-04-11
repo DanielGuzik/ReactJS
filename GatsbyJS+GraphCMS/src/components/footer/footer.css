@@ -1,0 +1,12 @@
+.footer {
+    background: rebeccapurple;
+    color: white;
+}
+
+.footer-wrapper {
+    padding: 15px;
+}
+
+.footer a {
+    color: white;
+}
